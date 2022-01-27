@@ -1,0 +1,31 @@
+<mvc:View controllerName="sap.ui.demo.MyApp.controller.MTable" displayBlock="true"
+	xmlns="sap.m"
+	xmlns:mvc="sap.ui.core.mvc"
+	xmlns:custom="sap.ui.demo.MyApp.control">
+	<Page id="page" title="{i18n>mTablePageTitle}" enableScrolling="true" class="sapUiContentPadding">
+		<content>
+			<custom:ButtonBack text="{i18n>backNavBtnTitle}" press="onBackNavBtnTitle"></custom:ButtonBack>
+			<!-- <Button text="{i18n>backNavBtnTitle}" press="onBackNavBtnTitle" type="Back"></Button> -->
+
+			<!-- <Table items="{ODataNorthwindModel>/Products}">
+				<columns>
+					<Column>
+						<Label text="Product Name" />
+					</Column>
+					<Column>
+						<Label text="Units In Stock" />
+					</Column>
+					<Column>
+						<Label text="Supplier" />
+					</Column>
+				</columns>
+				<ColumnListItem>
+					<Text text="{ODataNorthwindModel>ProductName}" />
+					<Text text="{ODataNorthwindModel>UnitsInStock}" />
+					<Text text="{ODataNorthwindModel>Shippers}" />
+				</ColumnListItem>
+				
+			</Table> -->
+		</content>
+	</Page>
+</mvc:View>

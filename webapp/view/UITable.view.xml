@@ -1,0 +1,7 @@
+<mvc:View controllerName="sap.ui.demo.MyApp.controller.UITable" displayBlock="true" xmlns="sap.m" xmlns:mvc="sap.ui.core.mvc">
+	<Page id="page" title="{i18n>uiTablePageTitle}" class="sapUiContentPadding">
+
+		<Button text="{i18n>backNavBtnTitle}" press="onBackNavBtnTitle" type="Back"></Button>
+
+	</Page>
+</mvc:View>
