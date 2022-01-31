@@ -5,27 +5,50 @@
 	<Page id="page" title="{i18n>mTablePageTitle}" enableScrolling="true" class="sapUiContentPadding">
 		<content>
 			<custom:ButtonBack text="{i18n>backNavBtnTitle}" press="onBackNavBtnTitle"></custom:ButtonBack>
-			<!-- <Button text="{i18n>backNavBtnTitle}" press="onBackNavBtnTitle" type="Back"></Button> -->
 
-			<!-- <Table items="{ODataNorthwindModel>/Products}">
+			<Table items="{ODataNorthwindModel>/Products}">
 				<columns>
 					<Column>
-						<Label text="Product Name" />
+						<Label text="ProductName" />
 					</Column>
 					<Column>
-						<Label text="Units In Stock" />
+						<Label text="SupplierID" />
 					</Column>
 					<Column>
-						<Label text="Supplier" />
+						<Label text="CategoryID" />
+					</Column>
+					<Column>
+						<Label text="QuantityPerUnit" />
+					</Column>
+					<Column>
+						<Label text="UnitPrice" />
+					</Column>
+					<Column>
+						<Label text="UnitsInStock" />
+					</Column>
+					<Column>
+						<Label text="UnitsOnOrder" />
+					</Column>
+					<Column>
+						<Label text="ReorderLevel" />
+					</Column>
+					<Column>
+						<Label text="Discontinued" />
 					</Column>
 				</columns>
 				<ColumnListItem>
 					<Text text="{ODataNorthwindModel>ProductName}" />
+					<Text text="{ODataNorthwindModel>SupplierID}" />
+					<Text text="{ODataNorthwindModel>CategoryID}" />
+					<Text text="{ODataNorthwindModel>QuantityPerUnit}" />
+					<Text text="{ODataNorthwindModel>UnitPrice}" />
 					<Text text="{ODataNorthwindModel>UnitsInStock}" />
-					<Text text="{ODataNorthwindModel>Shippers}" />
+					<Text text="{ODataNorthwindModel>UnitsOnOrder}" />
+					<Text text="{ODataNorthwindModel>ReorderLevel}" />
+					<Text text="{ODataNorthwindModel>Discontinued}" />
 				</ColumnListItem>
-				
-			</Table> -->
+			</Table>
+
 		</content>
 	</Page>
 </mvc:View>

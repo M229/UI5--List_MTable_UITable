@@ -9,7 +9,7 @@ sap.ui.define([
 		formatter: formatter,
 
 		onInit: function () {
-
+			var i = 0;
 		},
 
         onBackNavBtnTitle: function (oEvent) {
