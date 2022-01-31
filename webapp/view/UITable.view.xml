@@ -13,7 +13,7 @@
 						<m:Text text="{ODataNorthwindModel>ProductName}" wrapping="false" />
 					</template>
 				</Column>
-				<Column width="Flexible">
+				<Column width="11rem">
 					<m:Label text="SupplierID" />
 					<template>
 						<m:Text text="{ODataNorthwindModel>SupplierID}" wrapping="false" />
